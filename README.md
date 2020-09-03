@@ -1,3 +1,19 @@
+# Project setup
+
+### Install dependencies
+pip install -r requirements.txt<br>
+npm install
+
+<br>Then,<br>
+#### npm build 
+<br>and keep that build folder inside of backend/REALEST_ESTATE/
+
+### Serve API on localhost:8000
+python manage.py runserver
+
+<br/>
+<br/>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
