@@ -7,9 +7,9 @@ const ListingForm = (props) => {
   const [formData, setFormData] = useState({
     sale_type: "For Sale",
     price: "$0+",
-    bedrooms: "$0+",
+    bedrooms: "0+",
     home_type: "House",
-    bathrooms: "$0+",
+    bathrooms: "0+",
     sqft: "1000+",
     days_listed: "1 or less",
     has_photos: "1+",
@@ -234,9 +234,9 @@ const ListingForm = (props) => {
             </select>
           </div>
 
-          <div className="listingform__altsection">
+          <div className="listingform__section">
             <label className="listingform__label" htmlFor="open_house">
-              Open houses
+              Open house
             </label>
             <input
               className="listingform__checkbox"

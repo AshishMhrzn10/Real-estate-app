@@ -48,7 +48,7 @@ const Home = () => {
       </section>
 
       <section className="home__listings">
-        <Listings Listings={currentListings} />
+        <Listings listings={currentListings} />
       </section>
 
       <section className="home__pagination">

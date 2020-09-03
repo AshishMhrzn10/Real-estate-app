@@ -72,7 +72,7 @@ class SearchView(APIView):
         queryset = queryset.filter(bedrooms__gte=bedrooms)
 
         home_type = data['home_type']
-        queryset = queryset.filter(sale_type__iexact=sale_type)
+        queryset = queryset.filter(home_type__iexact=home_type)
 
         bathrooms = data['bathrooms']
         if bathrooms == '0+':
